@@ -15,8 +15,8 @@ Please download files “IMG_1__Decoded.mat” and “IMG_2__Decoded.mat”, and
 data/
 ├──monkeyking/
           ├──depth/…
-├──IMG_1__Decoded.mat
-├──IMG_1__Decoded.mat
+          ├──IMG_1__Decoded.mat
+          ├──IMG_1__Decoded.mat
 ```
 ## Run codes
 
