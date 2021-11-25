@@ -20,6 +20,7 @@ data/
 ```
 ## Run codes
 
+Run Main.m
 
 ## Performance
 
