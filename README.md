@@ -24,6 +24,7 @@ Run Main.m
 
 ## Performance
 
+![](performance/performance.png)
 
 If you have any question or find any bug, please feel free to contact:
 
