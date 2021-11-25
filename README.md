@@ -9,7 +9,7 @@ Please firstly setup VLFeat in MATLAB (at least 2009B) successfully, and then tr
 
 - LFs ([Download link](https://pan.baidu.com/s/1qfivKb8pYvaIGuGR8NvGPg)) [LFPE]
 
-Please download files “IMG_1__Decoded.mat” and “IMG_2__Decoded.mat”, and put these two files in the folder “data\monkeyking\”. The folder structure is as
+Please download files "IMG_1__Decoded.mat" and "IMG_2__Decoded.mat", and put these two files in the folder "data\monkeyking\". The folder structure is as
 
 ```tex
 data/
@@ -19,7 +19,7 @@ data/
           ├──IMG_1__Decoded.mat
 ```
 
-Note that two files have the same name “IMG_1__Decoded.mat” (also two files have the same name “IMG_2__Decoded.mat”), one is in the folder “data\monkeyking\”, and the other is in the folder “data\monkeyking\depth\E4\”.
+Note that two files have the same name "IMG_1__Decoded.mat" (also two files have the same name "IMG_2__Decoded.mat"), one is in the folder "data\monkeyking\", and the other is in the folder "data\monkeyking\depth\E4\". Do not mix up them.
 
 ## Run codes
 
