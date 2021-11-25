@@ -27,7 +27,7 @@ Run Main.m
 
 ## Performance
 
-![](performance/performance.png)
+![](https://github.com/SaipingZhang/Relative-Pose-Estimation-for-LF-Cameras/blob/main/performance/monkeyking.png)
 
 
 If you have any question or find any bug, please feel free to contact:
