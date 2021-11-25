@@ -19,7 +19,7 @@ data/
           ├──IMG_1__Decoded.mat
 ```
 
-Note that two files have the same name “IMG_1__Decoded.mat” (also two files have the same name “IMG_2__Decoded.mat”), one is in the folder “data\monkeyking\”, and one is in the folder “data\monkeyking\depth\E4\”. Do not mix them up.
+Note that two files have the same name “IMG_1__Decoded.mat” (also two files have the same name “IMG_2__Decoded.mat”), one is in the folder “data\monkeyking\”, and one is in the folder “data\monkeyking\depth\E4\”.
 ## Run codes
 
 Run Main.m
