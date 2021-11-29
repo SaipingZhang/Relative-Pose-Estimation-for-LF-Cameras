@@ -29,9 +29,6 @@ zi2 = cell(length(imageFiles)-1,1);
 FeaturePoints1 = cell(length(imageFiles)-1,1);
 FeaturePoints2 = cell(length(imageFiles)-1,1);
 
-% index of selected feature points after ransac
-Index = cell(length(imageFiles)-1,1);
-
 % Poses of LF cameras
 R = cell(length(imageFiles),1);
 T = cell(length(imageFiles),1);
@@ -128,7 +125,7 @@ for i = 1:length(imageFiles)-1 %for i = 1:1
     % Relative Pose Estimation
     [R{i+1}, T{i+1}] = estimation_RT_LinearMethod(FeaturePoints1{i},FeaturePoints2{i},KMatrix);
    
-    % Refinement: lsq-on-manifold¡ª¡ªmargin effect if initial solution if good enough
+    % Refinement: lsq-on-manifoldÂ¡ÂªÂ¡Âªmargin effect if initial solution if good enough
     [invR,invT] = invert_Rt(R{i+1},T{i+1});
     RotationVector = rodriguesMatrixToVector(invR);%invR means the rotation of 2 relative to 1
     phi0 = [invT;RotationVector];
